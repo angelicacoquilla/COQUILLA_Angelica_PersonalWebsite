@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style:none;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+    background: url(4.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+img{
+    width: 350px;
+    height:400px;
+    margin-top:10%;
+}
+h1{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: -16%;
+   
+}
+h2{
+    color: #FFFFFF;
+    font-family: cursive;
+    font-size: 40px;
+    
+    
+   
+}
+h3{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 25px;
+   
+}
+.btn{
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    border-radius: 70px;
+    line-height: 60px;
+    text-align: center;
+    border: 5px solid #66ffff;
+    opacity: .5;
+    display: block;
+    text-decoration: none;
+    margin: 300px;
+    color: #66ffff;
+    overflow: hidden;
+    background: transparent;
+    position: relative;
+    transition: .3s;
+    margin-top: 1%;
+   
+}
+
+.btn:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:#009688; 
+    opacity: .5s;
+    top: 100%;
+    left: 0;
+    z-index: -1;
+    transition: .3s;
+    
+    
+}
+.btn:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:#009688;
+    top: -100%;
+    left: 0;
+    z-index: -1;
+    transition: .3s;
+    transition-delay: .1s;
+    
+}
+.btn:hover{
+    color: white;
+}
+.btn:hover:before{
+    top:0;
+}
+.btn:hover:after{
+    top:0;
+}
+.text 
+{
+    margin: 250px 300px;
+    text-align: center;
+    display: inline-block;
+    transition: .5s;
+}
+.text span
+{
+    background:#fff;
+    width: 120px;
+    height: 120px;
+    display: block;
+    line-height: 120px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    font-size:40px;
+    float: left;
+    transition: .5s;
+    
+    
+}
+.text:hover span:nth-child(odd){
+    transform: skewY(-15deg);
+    color: #b5b5b5;
+    box-shadow: 0 60px 20px rgba(0, 0, 0, .1);
+}
+
+.text:hover span:nth-child(even){
+    transform: skewY(-15deg);
+       color: #b5b5b5;
+        
+}
