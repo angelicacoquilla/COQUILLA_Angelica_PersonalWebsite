@@ -17,3 +17,270 @@ body{
      
 }
 
+@charset "utf-8";
+/* CSS Document */
+
+/*html {
+Use this for a picture background.
+
+Erase the picture url and insert your own.  
+Must be 1280 X 898 pixels!  
+
+Make sure to erase the body styles below and this comment 
+or this will not work.
+	
+	background: url(../1280.jpg) no-repeat center center fixed;
+	height: 100%;
+	max-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+*/
+
+/*Use the body style below if you want 
+to use a color instead of a picture 
+for the homepage background.
+
+You will have to choose an html color code.
+It will begin with a # and end with a ;*/
+
+body {
+
+   background-color: #99CCFF;
+	
+
+}
+
+.container {   /*This is your wrapper that holds all of the sections*/
+	
+	width: 920px;
+	max-width: 90%;
+	height: auto;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;  /*#000; means black.  Change it to any color you like*/
+    border-radius: 15px;  /*Means "rounded corners"*/
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;	
+	
+}
+
+.section0 {  /*All sections sit inside the container*/
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000; /*This controls the background color of section0*/
+	
+}
+
+.section1 {
+	
+	width: 90%;/*Creates white space aroud text*/
+	max-width: 100%;  /*Needed to work with mobile*/
+	height: auto;  /*Do not set a fixed number here.  It will affect mobile compatibility.*/
+	margin-left: auto;  /*This centers the element. Use with margin-right*/
+	margin-right: auto; /*This is also needed to center*/
+	background-color: #000;  /*Also a color*/
+	display: none;  /*This keeps section1 from view until selected by the menu*/
+	
+
+}
+
+.section2 { /*All sections are carbon copies of each other.
+            You should make consistent changes to all sections.*/
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+.section3 {
+
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.section4 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.section5 {
+	
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+	
+}
+
+.section6 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.section7 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+.section8 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+.section9 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+h1 {  /*You can either declare Google fonts here, or create a class
+     for the font, using it in your HTML*/
+	
+	color: #fff;
+	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	max-width: 100%;
+	
+	
+	
+}
+
+h2 {
+    
+	color: #fff;
+	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	max-width: 100%;
+	
+}
+
+h3 {
+	
+	color: #fff;
+	font-family:  Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	max-width: 100%
+}
+
+hr {  /*Horizontal Rule*/
+	
+	width: 880px;
+	max-width: 90%;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: xx-large;
+}
+
+.img  {
+	
+	width: 100%;
+	height: 100%;
+}
+
+header {  /*Use for Logo or Website Title*/
+	
+	max-width: 100%; 
+	height: auto;
+	 border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	
+}
+
+footer {   /*Border-Radius means "rounded corners"*/
+	height: auto;
+	 border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.responsive { /*Use this with your images*/
+	
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+
+a:link {   /*This is used to improve the look of links*/
+	
+	color: #fff;
+	list-style-type: none;
+	text-decoration: none;
+	text-shadow: 2px 1px #E07CD6;  /*Drop caps effect for text.  Pick a shadow color.*/
+}
+a:hover {
+	
+	color: #fff;
+	text-shadow: 2px 1px #8A8CF7;
+	
+}
+
+.google-maps {   /*Use this class in a <div> to make your Google Maps Responsive*/
+    position: relative;
+	padding-bottom: 40%; // (450 ÷ 500 = 0.9 = 90%)
+    height: 0;
+    overflow: hidden;
+	max-width: 600px;
+	max-height: 397px;
+}
+.google-maps iframe {  /*This class must be in your CSS to make Google Maps Responsive
+                     but you won't use it in your HTML.*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	max-width: 600px;
+	max-height: 397px;
+	
+}
+
+
