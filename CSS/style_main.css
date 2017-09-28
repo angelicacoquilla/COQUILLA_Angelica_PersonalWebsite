@@ -1,0 +1,19 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family:sans-serif;
+   list-style:none;
+}
+
+html, body{
+	height: 100%;
+}
+body{
+    background: url(back.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+    background-size: 100% 100%;
+     
+}
+
