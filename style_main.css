@@ -1,0 +1,305 @@
+*{
+   margin: 0;
+   padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+html, body{
+	height: 100%;
+}
+body{
+    background: url(pic.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family:sans-serif;
+    font-size: 17px;
+    margin: 0;
+    font-weight: bold;
+    background-size: 100% 100%;
+     
+}
+
+.nav{
+    background: gainsboro; 
+    min-height: 59px;
+    overflow: auto;
+}
+
+.nav .right{
+    float: right;
+    margin-right: 1em;
+}
+ul{  
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav .right li{
+    float: left; 
+}
+
+a{
+    display: block;
+    padding: 17px 20px;
+    line-height: 30px;
+    color: #191919;
+    text-decoration:  none;
+    font-size: 17px;
+}
+.nav . right a:hover{
+    background: #99ccff;
+}
+
+.section0 {  /*All sections sit inside the container*/
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background: black/*This controls the background color of section0*/
+	
+}
+img{
+    width: 600px;
+    height:750px;
+}
+.section1 {
+	
+	width: 90%;/*Creates white space aroud text*/
+	max-width: 100%;  /*Needed to work with mobile*/
+	height: auto;  /*Do not set a fixed number here.  It will affect mobile compatibility.*/
+	margin-left: auto;  /*This centers the element. Use with margin-right*/
+	margin-right: auto; /*This is also needed to center*/
+	background-color: #000;  /*Also a color*/
+    margin-top: -20%;
+	
+
+}
+h4{
+    color:white;
+    font-size: 50px;
+    margin:1em;
+    margin-bottom: 1%;
+}
+h5{
+    color: white;
+    font-size: 25px;
+    margin-left: 3%;
+}
+h6{
+    color:white;
+    font-size: 23px;
+    margin-left: 13%;
+    margin-top: 1%;
+}
+h7{
+    color: white;
+    font-size: 25px;
+    margin-left: 3%;
+    margin-top: -3%;
+}
+
+h8{
+    color:white;
+    font-size: 23px;
+    margin-left: 13%;
+    margin-top: 1%;
+}
+
+.section2 { /*All sections are carbon copies of each other.
+            You should make consistent changes to all sections.*/
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	
+}
+
+hr{
+    border-top: 2px solid white;
+}
+
+.section3 {
+
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.section4 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.section5 {
+	
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+	
+}
+
+.section6 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.section7 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+.section8 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+.section9 {
+	
+	width: 90%;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+	display: none;
+}
+
+h1 {  /*You can either declare Google fonts here, or create a class
+     for the font, using it in your HTML*/
+	
+	color: #fff;
+	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	max-width: 100%;
+	
+	
+	
+}
+
+h2 {
+    
+	color: #fff;
+	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	max-width: 100%;
+	
+}
+
+h3 {
+	
+	color: #fff;
+	font-family:  Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	max-width: 100%
+}
+
+hr {  /*Horizontal Rule*/
+	
+	width: 880px;
+	max-width: 90%;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: xx-large;
+}
+
+.img  {
+	
+	width: 100%;
+	height: 100%;
+}
+
+header {  /*Use for Logo or Website Title*/
+	
+	max-width: 100%; 
+	height: auto;
+	 border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	
+}
+
+footer {   /*Border-Radius means "rounded corners"*/
+	height: auto;
+	 border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.responsive { /*Use this with your images*/
+	
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+
+a:link {   /*This is used to improve the look of links*/
+	
+	color: #fff;
+	list-style-type: none;
+	text-decoration: none;
+	text-shadow: 2px 1px #E07CD6;  /*Drop caps effect for text.  Pick a shadow color.*/
+}
+a:hover {
+	
+	color: #fff;
+	text-shadow: 2px 1px #8A8CF7;
+	
+}
+
+.google-maps {   /*Use this class in a <div> to make your Google Maps Responsive*/
+    position: relative;
+	padding-bottom: 40%; // (450 ÷ 500 = 0.9 = 90%)
+    height: 0;
+    overflow: hidden;
+	max-width: 600px;
+	max-height: 397px;
+}
+.google-maps iframe {  /*This class must be in your CSS to make Google Maps Responsive
+                     but you won't use it in your HTML.*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	max-width: 600px;
+	max-height: 397px;
+	
+}
+
+
