@@ -58,7 +58,7 @@ a{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background: black/*This controls the background color of section0*/
+	background: #333333;/*This controls the background color of section0*/
 	
 }
 img{
@@ -72,8 +72,8 @@ img{
 	height: auto;  /*Do not set a fixed number here.  It will affect mobile compatibility.*/
 	margin-left: auto;  /*This centers the element. Use with margin-right*/
 	margin-right: auto; /*This is also needed to center*/
-	background-color: #000;  /*Also a color*/
-    margin-top: -20%;
+	background-color: #333333;  /*Also a color*/
+    margin-top: -25%;
 	
 
 }
@@ -107,6 +107,19 @@ h8{
     margin-left: 13%;
     margin-top: 1%;
 }
+h9{
+    color: white;
+    font-size: 25px;
+    margin-left: 3%;
+    margin-top: -3%;
+}
+
+h10{
+    color:white;
+    font-size: 23px;
+    margin-left: 13%;
+    margin-top: 1%;
+}
 
 .section2 { /*All sections are carbon copies of each other.
             You should make consistent changes to all sections.*/
@@ -116,13 +129,19 @@ h8{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
+	background-color:  #333333;
 	
 }
 
 hr{
     border-top: 2px solid white;
 }
+
+h21{
+    color:white;
+    font-size: 50px;
+}
+
 
 .section3 {
 
