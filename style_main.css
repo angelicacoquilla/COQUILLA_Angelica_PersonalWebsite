@@ -43,9 +43,9 @@ a{
     display: block;
     padding: 17px 20px;
     line-height: 30px;
-    color: #191919;
+    color: white;
     text-decoration:  none;
-    font-size: 17px;
+    font-size: 25px;
 }
 .nav . right a:hover{
     background: #99ccff;
@@ -140,29 +140,31 @@ hr{
 h21{
     color:white;
     font-size: 45px;
-   
+    
 }
 
 h22{
     color:white;
     font-size: 20px;
     margin: 4em;
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin-left: 12%;
+    margin-top: -5%;
    
 }
 h23{
     color:white;
     font-size: 20px;
     margin: 1em;
-    margin-left: -30%;
-    margin-bottom: -10%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+     margin-top: -5%;
 }
 h24{
     color:white;
     font-size: 20px;
     margin: 1em;
-    margin-left: -30%;
+    margin-left: 18%;
+     margin-top: -5%;
 }
 
 .images1{
@@ -176,7 +178,7 @@ h24{
     width: 300px;
     height: 250px;
     margin: 5em;
-    margin-left: 14%;
+    margin-left: -3%;
     margin-top: -1%;
    
 }
@@ -184,32 +186,29 @@ h24{
     width: 300px;
     height: 250px;
     margin: 5em;
-    margin-left: 18%;
+    margin-left: -3%;
     margin-top: -1%;
    
 }
-
-
-.section3 {
-
-	width: 90%;
-	max-width: 100%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #fff;
-	display: none;
-}
-
 .section4 {
 	
-	width: 90%;
-	max-width: 100%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #fff;
-	display: none;
+	width: 90%;/*Creates white space aroud text*/
+	max-width: 100%;  /*Needed to work with mobile*/
+	height: auto;  /*Do not set a fixed number here.  It will affect mobile compatibility.*/
+	margin-left: auto;  /*This centers the element. Use with margin-right*/
+	margin-right: auto; /*This is also needed to center*/
+	background-color: #333333;  /*Also a color*/
+    margin-top:-2%;
+    
+}
+h30{
+    font-size: 40px;
+    color: white;
+}
+.images4{
+    width: 750px;
+    height: 300px;
+    margin-bottom: -1%;
 }
 
 .section5 {
@@ -220,7 +219,7 @@ h24{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #fff;
+	background-color: ;
 	display: none;
 	
 }
