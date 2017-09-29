@@ -73,7 +73,7 @@ img{
 	margin-left: auto;  /*This centers the element. Use with margin-right*/
 	margin-right: auto; /*This is also needed to center*/
 	background-color: #333333;  /*Also a color*/
-    margin-top: -25%;
+    margin-top: -23%;
 	
 
 }
@@ -139,7 +139,54 @@ hr{
 
 h21{
     color:white;
-    font-size: 50px;
+    font-size: 45px;
+   
+}
+
+h22{
+    color:white;
+    font-size: 20px;
+    margin: 4em;
+    margin-left: 10%;
+    margin-bottom: 10%;
+   
+}
+h23{
+    color:white;
+    font-size: 20px;
+    margin: 1em;
+    margin-left: -30%;
+    margin-bottom: -10%;
+}
+h24{
+    color:white;
+    font-size: 20px;
+    margin: 1em;
+    margin-left: -30%;
+}
+
+.images1{
+    width: 300px;
+    height: 250px;
+    margin: 5em;
+    margin-top: -1%;
+}
+
+.images2{
+    width: 300px;
+    height: 250px;
+    margin: 5em;
+    margin-left: 14%;
+    margin-top: -1%;
+   
+}
+.images3{
+    width: 300px;
+    height: 250px;
+    margin: 5em;
+    margin-left: 18%;
+    margin-top: -1%;
+   
 }
 
 
