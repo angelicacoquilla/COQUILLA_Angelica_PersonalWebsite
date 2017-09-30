@@ -23,6 +23,10 @@ body{
     background: #333333 ; 
     min-height: 59px;
     overflow: auto;
+    position: fixed;
+    width: 100%;
+    
+    
 }
 
 .nav .right{
@@ -59,7 +63,8 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	background: Gainsboro;/*This controls the background color of section0*/
-	
+	margin-top: -1.2%;
+    
 }
 img{
     width: 600px;
@@ -74,14 +79,12 @@ img{
 	margin-right: auto; /*This is also needed to center*/
 	background-color: Gainsboro;  /*Also a color*/
     margin-top: -23%;
-	
-
 }
 h4{
     color: #333333;
     font-size: 50px;
     margin:1em;
-    margin-bottom: 1%;
+    margin-top: 3%;
 }
 h5{
     color: black;
@@ -108,7 +111,7 @@ h8{
     margin-top: 1%;
 }
 h9{
-    color: #333333;
+    color: black;
     font-size: 25px;
     margin-left: 3%;
     margin-top: -3%;
@@ -273,16 +276,30 @@ h40{
     
 }
 h30{
-    font-size: 40px;
+    font-size: 35px;
     color: #333333;
+    font-family: sans-serif;
+}
+h31{
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: -10%;
+    margin-left: 13px;
+}
+
+h32{
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: -10%;
+    margin-left: 13px;
 }
 .images4{
-    width: 650px;
-    height: 300px;
+    width: 450px;
+    height: 200px;
     margin-bottom: -1%;
 }
 .a1{
-    font-size: 30px;
+    font-size: 20px;
     color: #333333;
 }
 
@@ -364,6 +381,7 @@ h1 {  /*You can either declare Google fonts here, or create a class
 	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
 	max-width: 100%;
     font-size: 40px;
+    margin-top: 2%;
 }
 
 h2 {
