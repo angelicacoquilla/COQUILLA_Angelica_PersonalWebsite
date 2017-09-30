@@ -20,7 +20,7 @@ body{
 }
 
 .nav{
-    background: gainsboro; 
+    background: #333333 ; 
     min-height: 59px;
     overflow: auto;
 }
@@ -43,12 +43,12 @@ a{
     display: block;
     padding: 17px 20px;
     line-height: 30px;
-    color: #191919;
+    color: snow;
     text-decoration:  none;
     font-size: 17px;
 }
 .nav . right a:hover{
-    background: #99ccff;
+    background: mediumblue;
 }
 
 .section0 {  /*All sections sit inside the container*/
@@ -58,7 +58,7 @@ a{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background: #333333;/*This controls the background color of section0*/
+	background: Gainsboro;/*This controls the background color of section0*/
 	
 }
 img{
@@ -72,50 +72,50 @@ img{
 	height: auto;  /*Do not set a fixed number here.  It will affect mobile compatibility.*/
 	margin-left: auto;  /*This centers the element. Use with margin-right*/
 	margin-right: auto; /*This is also needed to center*/
-	background-color: #333333;  /*Also a color*/
+	background-color: Gainsboro;  /*Also a color*/
     margin-top: -23%;
 	
 
 }
 h4{
-    color:white;
+    color: #333333;
     font-size: 50px;
     margin:1em;
     margin-bottom: 1%;
 }
 h5{
-    color: white;
+    color: black;
     font-size: 25px;
     margin-left: 3%;
 }
 h6{
-    color:white;
+    color:#333333;
     font-size: 23px;
     margin-left: 13%;
     margin-top: 1%;
 }
 h7{
-    color: white;
+    color: black;
     font-size: 25px;
     margin-left: 3%;
     margin-top: -3%;
 }
 
 h8{
-    color:white;
+    color: #333333;
     font-size: 23px;
     margin-left: 13%;
     margin-top: 1%;
 }
 h9{
-    color: white;
+    color: #333333;
     font-size: 25px;
     margin-left: 3%;
     margin-top: -3%;
 }
 
 h10{
-    color:white;
+    color: #333333;
     font-size: 23px;
     margin-left: 13%;
     margin-top: 1%;
@@ -129,22 +129,22 @@ h10{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-color:  #333333;
+	background-color: Gainsboro;
 	
 }
 
 hr{
-    border-top: 2px solid white;
+    border-top: 2px solid black;
 }
 
 h21{
-    color:white;
+    color: #333333;
     font-size: 45px;
     
 }
 
 h22{
-    color:white;
+    color: #333333;
     font-size: 20px;
     margin: 4em;
     margin-left: 12%;
@@ -152,7 +152,7 @@ h22{
    
 }
 h23{
-    color:white;
+    color: #333333;
     font-size: 20px;
     margin: 1em;
     margin-left: 12%;
@@ -160,7 +160,7 @@ h23{
      margin-top: -5%;
 }
 h24{
-    color:white;
+    color: #333333;
     font-size: 20px;
     margin: 1em;
     margin-left: 18%;
@@ -197,13 +197,13 @@ h24{
 	height: auto;  /*Do not set a fixed number here.  It will affect mobile compatibility.*/
 	margin-left: auto;  /*This centers the element. Use with margin-right*/
 	margin-right: auto; /*This is also needed to center*/
-	background-color: #333333;  /*Also a color*/
+	background-color: Gainsboro;  /*Also a color*/
     margin-top:-2%;
     
 }
 h30{
     font-size: 40px;
-    color: white;
+    color: #333333;
 }
 .images4{
     width: 650px;
@@ -212,7 +212,7 @@ h30{
 }
 .a1{
     font-size: 30px;
-    color: white;
+    color: #333333;
 }
 
 .ul1{
@@ -241,7 +241,7 @@ h30{
     overflow: hidden;
     margin: 15px;
     transition: .2s;
-    border: 2px solid white;
+    border: 2px solid black;
     transform:  rotate(42deg);
     
     
@@ -267,7 +267,7 @@ h30{
 }
 
 .ul1 li a:hover{
-    color: #fff;
+    color: #333333;
 }
 
 .ul1 li:nth-child(1) a:before{
@@ -286,21 +286,18 @@ h30{
 
 
 
-
-
-
-
 h1 {  /*You can either declare Google fonts here, or create a class
      for the font, using it in your HTML*/
 	
-	color: #fff;
+	color: #333333;
 	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
-	max-width: 100%;	
+	max-width: 100%;
+    font-size: 40px;
 }
 
 h2 {
     
-	color: #fff;
+	color: black;
 	font-family: Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
 	max-width: 100%;
 	
@@ -308,7 +305,7 @@ h2 {
 
 h3 {
 	
-	color: #fff;
+	color: black;
 	font-family:  Oswald, Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
 	max-width: 100%
 }
@@ -317,7 +314,7 @@ hr {  /*Horizontal Rule*/
 	
 	width: 880px;
 	max-width: 90%;
-	color: #fff;
+	color: black;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: xx-large;
@@ -366,3 +363,36 @@ a:hover {
 	
 }
 
+.section5{
+    width:40%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #333;
+    box-sizing: border-box; 
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    
+}
+
+h40{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+.skillBox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+.skillBox p{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
